@@ -8,6 +8,7 @@ float problemSolution2(float i, float j, float k) {
     std::cin >> k;
 
     double result = (i > j) ? ((i > k) ? i : k) : ((j > k) ? j : k);
+    std::cout << result;
 
     return result;
 }
